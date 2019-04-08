@@ -64,7 +64,7 @@ public class Main {
         String answer;
         StringBuilder output = new StringBuilder("###############");
         boolean end = true;
-        int WordNum = 1;
+        int WordNum = GetRandNum(0,25);
         int i=0;
         System.out.println("Чтоб было проще отгадывать вот список всех возможных слов: apple orange lemon banana apricot avocado broccoli carrot cherry garlic grape melon leak kiwi mango mushroom nut olive pea peanut pear pepper pineapple pumpkin potato" );        do{
             answer = sc.next();
